@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <> picoparentesis: permiten abrir y cerrar estructuras -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- El título debe de estar entre 55 y 65 caracteres -->
+    <title>Aprendiendo HTML</title>
+    
+    <!-- La descripción no debe de superar los 165 caracteres -->
+    <meta name="description" content="En esta página estamos aprendiendo los fundamentos de HTML con @jonmircha">
+    
+    <!-- La url de la etiqueta canonical es la que le dice a los motores de búsqueda, yo ya sé que para llegar al
+    contenido de este html existen varias url, pero esta que te proporciono es la original (canónica) 
+    Se recomienda poner la url canónica en cada documento, simpre y cuando se sepa con certeza cual será nuestro dominio
+    en internet-->
+    <!-- Esta etiqueta hace referencia a la url canonical -->
+    <link rel="canonical" href="https://tudominio.com/la-url-canonical">
+    
+    
+    <!-- Otras etiquetas para SEO: favicon y apple touch icon -->
+    <link rel="icon" href="img/favicon.png"> <!-- Esta etiqueta es para escritorios -->
+    <link rel="apple-touch-icon" href="img/favicon.png"> <!-- Esta etiqueta es para dispositivos móviles -->
+    
+    <!-- Cambiando el color de la barra de direcciones del dispositivo móvil -->
+    <meta name="theme-color" content="#FF6600">
+    
+    <!-- Estas son metaetiquetas para compartir contenido en redes sociales. Utilizan el protocolo Open Graph -->
+    <meta property="og:title" content="Aprendiendo HTML">
+    <meta property="og:description" content="En esta página estamos aprendiendo lo fundamentos de HTML con @jonmircha">
+
+    <!-- La url que se coloque en el og:image debe de ser relativa al dominio -->
+    <meta property="og:image" content="https://tudominio.com/img/periodic-table-of-html-elements.png">
+
+    <!-- Esta url debe de ser la url original (canónica) -->
+    <meta property="og:url" content="https://tudominio.com/index.html">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@jonmircha">
+
+    <style>
+        h2 {
+            color: orangered;
+        }
+    </style>
+    <!-- La etiqueta link se utiliza para enlazar elementos a nuestro documento html que le son de utilidad. -->
+    <!-- El atributo rel especifica a que tipo de documento hace referencia este enlace y en el atributo href se coloca la ruta donde está la hoja de estilo -->
+    <link rel="stylesheet" href="assets/estilos.css">
+</head>
+
+<body>
+    <!-- El atributo id nos permite establecer un identificador.
+    Los identificadores se utilizan para tener localizado los elementos o secciones dentro de nuestro sitio web -->
+    <h2 id="inicio">Aprendiendo HTML</h2>
+    <!-- Esto es un comentario -->
+
+    <!-- Enlaces y documentaciones utilizados:
+    - https://www.w3.org/html/
+    - https://html.spec.whatwg.org/
+    - https://www.w3.org/blog/news/archives/7753
+    - https://developer.mozilla.org/es/docs/Web/HTML
+    - https://htmlreference.io/
+    - https://emojipedia.org
+    - https://caniuse.com
+    - https://ogp.me/
+    - Caracteres epeciales HTML: https://desarrolloweb.com/articulos/11.php
+    - Periodic Table HTML tag: Tabla periódica de las etiquetas html -->
+
+    <!-- Ctr + barra espaciadora activar la referencia -->
+
+    <!-- La etiqueta p se utiliza para definir un párrafo -->
+    <p>Hola, escribiendo mi primer documento HTML</p>
+    <p>Aprendiendo sobre Diseño Web</p>
+    <h3>Temario del Curso</h3>
+    <ul>
+        <li><a href="index_2.html#encabezados">Encabezados HTML</a></li>
+        <li><a href="index_2.html#textos-basicos">Etiquetas de Texto Básicas</a></li>
+        <li><a href="index_2.html#textos-semanticos">Etiquetas de Texto Semánticas</a></li>
+        <li><a href="index_2.html#etiquetas-saltos">Etiquetas de Salto</a></li>
+        <li><a href="index_2.html#etiquetas-formateo">Etiquetas de Formateo</a></li>
+        <li><a href="index_2.html#etiquetas-semanticas-estructurales">Etiquetas semánticas estructurales</a></li>
+        <li><a href="index_2.html#etiquetas-bloque-linea">Etiquetas de bloque vs Etiquetas de Línea</a></li>
+        <li><a href="index_2.html#estilos-css">Formas de aplicar estilos CSS en HTML</a></li>
+        <li><a href="index_2.html#scripts-html">Formas de insertar Scripts en HTML</a></li>
+        <li><a href="index_2.html#imagenes">Agregando Imágenes</a></li>
+        <li><a href="index_2.html#vectores">SVG - Vectores</a></li>
+        <li><a href="index_2.html#figuras">Figuras</a></li>
+        <li><a href="index_2.html#listas-ordenadas">Listas Ordenadas</a></li>
+        <li><a href="index_2.html#listas-desordenadas">Listas Desordenadas</a></li>
+        <li><a href="index_2.html#listas-definicion">Listas de Definición</a></li>
+        <li><a href="index_2.html#tablas-html">Tablas en HTML</a></li>
+        <li><a href="index_2.html#enlaces-html">Enlaces en HTML</a></li>
+        <li><a href="index_2.html#elementos-interactivos">Elementos Interactivos</a></li>
+        <li><a href="index_2.html#audio-video">Elementos de Audio y Video en HTML</a></li>
+        <li><a href="index_2.html#iframes">Iframes</a></li>
+        <li><a href="index_2.html#formularios">Formularios</a></li>
+        <li><a href="index_2.html#data-attributes">Data Attributes</a></li>
+        <li><a href="index_2.html#metas-seo">Metaetiquetas para SEO y móviles</a></li>
+        <li><a href="index_2.html#metas-social">Metaetiquetas para Redes Sociales</a></li>
+        <li><a href="index_2.html#accWeb">Accesibilidad Web</a></li>
+    </ul>
+
+    <!-- La etiqueta hr permite formar una línea horizontal. Define saltos semánticos entre bloques de contenido (se utiliza para definir secciones) -->
+    <hr>
+
+    <h2 id="encabezados">Encabezados HTML</h2>
+    <!-- Encabezados: permiten establecer títulos en nuestros contenidos, van desde h1 al h6 -->
+    <!-- Solo debe de haber un título en h1 -->
+    <h1> Encabezado de nivel 1</h1>
+    <h2> Encabezado de nivel 2</h2>
+    <h3> Encabezado de nivel 3</h3>
+    <h4> Encabezado de nivel 4</h4>
+    <h5> Encabezado de nivel 5</h5>
+    <h6> Encabezado de nivel 6</h6>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="textos-basicos">Etiquetas de Texto Básicas</h2>
+    <!-- Principales Etiquetas para describir texto -->
+    <p>Un párrafo</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque beatae, eaque harum sapiente quam vero modi earum
+        illo ea libero? Aut dolorum voluptatum praesentium deserunt totam minima quisquam sit beatae.
+    </p>
+
+    <!-- La etiqueta b se utiliza para enfatizar un texto (ponerlo en negrita) -->
+    <p>Palabra en <b>negrita</b></p>
+
+    <!-- La etiqueta i se utiliza para poner un texto en cursiva -->
+    <p>Palabra en <i>cursiva</i></p>
+
+    <!-- La etiqueta u se utiliza para subrayar un texto -->
+    <p>Palabra <u>subrayada</u></p>
+
+    <!-- La etiqueta sup se utiliza para indicar un superindice -->
+    <p>Fórmula: e=mc<sup>2</sup></p>
+
+    <!-- La etiqueta sub se utiliza para indicar un subindice -->
+    <p>Fórmula del agua: H<sub>2</sub>O</p>
+
+    <!-- La etiqueta mark se utiliza para resaltar texto -->
+    <p>Texto resaltado <mark>texto</mark></p>
+
+    <!-- La etiqueta small se utiliza para indicar un texto en letras pequeñas -->
+    <p>Estas son <small>letras pequeñas</small></p>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="textos-semanticos">Etiquetas de Texto Semánticas</h2>
+    <!-- Etiquetas semánticas: aquellas que otorgan un significado -->
+
+    <!-- La etiqueta strong se utiliza para indicar un texto importante -->
+    <p><strong>Este texto es importante</strong>.</p>
+
+    <!-- La etiqueta em se utiliza para indicar énfasis a un texto -->
+    <p><em>Este texto hace énfais</em>.</p>
+
+    <!-- La etiqueta blockquote se emplea para indicar una cita (extraer una referencia de algo que alguien más escribió) -->
+    <p>
+        <blockquote>Yo sólo sé, que no se nada</blockquote>
+        <cite>Sócrates</cite>
+    </p>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="etiquetas-saltos">Etiquetas de Salto</h2>
+    <!-- La etiqueta time permite definir el tiempo, mediante el atributo datetime indicamos la fecha y hora en un formato entendible por la computadora -->
+    <p>El juego comienza a las <time datetime="2022-06-16T19:00"> 19:00 horas </time></time></p>
+
+    <!-- Etiquetas de salto -->
+
+    <!-- La etiqueta br se utiliza para dar un salto de línea dentro del texto -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Architecto nostrum dignissimos atque dolorem non
+        facilis quod tempore quis, <br> pariatur ad quibusdam ratione ipsam doloribus et facere voluptatum? Expedita,
+        quia
+        quae!
+    </p>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="etiquetas-formateo">Etiquetas de Formateo</h2>
+
+    <!-- La etiqueta pre nos permite preformatear el texto contenido en ella (el navegador respeta el formateo dado) -->
+    <p>
+        <pre>
+        Tareas por hacer
+        -HTML
+         - Terminar de grabar las secciones de este curso.
+         - Editar en un solo video.
+        
+        - CSS
+         - Comenzar a grabar secciones de CSS.
+         - Editar en un solo video.
+        </pre>
+    </p>
+
+    <!-- La etiqueta code nos permite dar un formato de código al texto -->
+    <p>
+        <code>
+            Este texto está en formato de código
+        </code>
+    </p>
+
+    <p>
+        <pre>
+            <code>
+            import React from "react";
+            import Title from "title";
+
+            function App{
+                <!-- Los caracteres &lt (menor que (less than)) y &gr (mayor que (gretter than)) se utilizan para poder interpretar y visualizar el código como un texto -->
+               return &lt;Title/&gt; 
+            }
+            </code>
+        </pre>
+    </p>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+    <!-- Las etiquetas semánticas estructurales se emplean para definir zonas de maquetación. Definen áreas principales de nuestro sitio web -->
+    <h2 id="etiquetas-semanticas-estructurales">Etiquetas semánticas estructurales</h2>
+
+    <!-- Buscar en google: estructura semántica HTML5 -->
+
+    <!-- La etiqueta div nos permite definir una zona de contenido -->
+    <div>div es una etiqueta contenedora que no tiene semántica.</div>
+
+    <!-- La etiqueta header va a representar la cabecera de un sitio web o de una sección -->
+    <header>header - Cabecera de un sitio web o de una sección.</header>
+
+    <!-- La etiqueta main define la sección principal del documento. Solo puede existir una etiqueta main por documento -->
+    <main>main - define la sección principal del documento. Solo puede existir una etiqueta main por documento.</main>
+
+    <!-- La etiqueta footer define el pie de página de un sitio web o de una sección del sitio -->
+    <footer>footer - Pie de página de un sitio web o de una sección.</footer>
+
+    <!-- La etiqueta nav reperenta la navegación. Conjunto de enlaces que representa la navegación -->
+    <nav>nav - Representa una navegación.</nav>
+
+    <!-- La etiqueta article nos permitirá representar una sección de autocontenido (que por si sola se explica) -->
+    <article>article - Representa una sección de autocontenido.</article>
+
+    <!-- La etiqueta aside representa contenido complementario o secundario 
+         También se utiliza para colocar las zonas de publicidad -->
+    <aside>aside - Representa contenidos complementarios o secundarios</aside>
+
+    <!-- La etiqueta section representa una sección de contenido genérico -->
+    <section>section - Representa una sección de contenido genérico</section>
+
+    <!-- La etiqueta address representa una información de contacto -->
+    <address>address - Representa una información de contacto</address>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <br>
+
+    <hr>
+
+    <h2 id="etiquetas-bloque-linea">Etiquetas de bloque vs Etiquetas de Línea</h2>
+
+    <!-- La etiqueta de bloque por excelencia o más representativa es div -->
+    <!-- Con la propiedad style puedo darle estilo al contenido dentro del div, esto desde html -->
+    <div style="background-color: yellow;">div- Es una sección de bloque genérico. Una etiqueta de bloque es aquella que
+        genera saltos de línea con sus etiquetas hermanas.</div>
+
+    <!-- La etiqueta de bloque por excelencia o más representativa es div -->
+    <span style="background-color: greenyellow;">Es un contenedor genérico en línea. No posee carga semántica. Una
+        etiqueta de línea solo ocupa el espacio necesario que tiene su contenido.</span>
+    <span>Hola soy otra etiqueta span.</span>
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <!-- APUNTES:
+    Las etiquetas de línea no generan saltos de línea ni arriba ni abajo.
+    Las mayorías de las etiquetas en html van a ser de naturaleza de bloque o de naturaleza de línea. 
+    Etiquetas de bloques: encabezados, párrafos, etiquetas semánticas estructurales. Estas ocupan todo el ancho de línea y generan saltos de líneas
+    con las etiquetas hermanas.
+    Etiquetas de línea: etiquetas de imágenes, audio, dibujo, videoetiquetas de textos básicas y semánticas. Solo ocuparán el espacio que requiere. -->
+
+    <hr>
+
+    <h2 id="estilos-css">Formas de aplicar estilos CSS en HTML</h2>
+    <ol>
+        <li>Mediante el atributo style ubicado dentro de las etiquetas.</li>
+        <li>Mediante la incorporación de la etiqueta style dentro de la etiqueta head.</li>
+        <li>Mediante la creación de una hoja de estilo css.</li>
+    </ol>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="scripts-html">Formas de insertar Scripts en HTML</h2>
+
+    <ol>
+        <li>Directamente desde el documento.</li>
+        <li>Mediante un fichero JS externo.</li>
+    </ol>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="imagenes">Agregando Imágenes</h2>
+
+    <!-- La etiqueta img permite agregar imágenes. Con el atributo alt indicamos uandescripción de la imagen
+    en caso de que la misma esté rota. Soporta todos los tipos de imágenes admitidos por los navegadores. -->
+    <img src="img/periodic-table-of-html-elements.png" alt="Tabla Periódica de los Elementos HTML">
+    <img src="img/puesta-sol.jpg" alt="Puesta del sol y KEnAi">
+    <img src="img/this-is-fine.gif" alt="Meme del perro This is Fine">
+    <img src="img/kEnAi.svg" alt="kEnAi">
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="vectores">SVG - Vectores</h2>
+    <?xml version="1.0" encoding="iso-8859-1"?>
+    <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+        <path style="fill:#FFA54B;" d="M472.001,384c0,0-16.667-74.667-64-128c-7.135-8.04,28-248,8-248c-31,0-68,86-128,136l0.52,6.842
+	c-9.029-4.951-19.864-7.842-31.52-7.842c-12.572,0-24.187,3.363-33.611,9.048l0.611-8.048c-60-50-97-136-128-136
+	c-20,0,15.136,239.96,8,248c-47.333,53.333-64,128-64,128s30-4.75,40,0l-8,24c0,0,88,25.75,127.415,59.595l0.861-0.438
+	c4.724,4.843,13.539,8.674,23.724,12.843c7.617,3.118,23.917-9,33-9c8.947,0,20.468,10.032,28,7c9.189-3.699,19-4,25.506-11.31
+	l2.079,0.904C352.001,433.75,440.001,408,440.001,408l-8-24C442.001,379.25,472.001,384,472.001,384z" />
+        <path style="fill:#FFCD9B;"
+            d="M222.001,475.999c0,15.465,15.223,28.001,34,28.001c18.778,0,34-12.536,34-28.001H222.001z" />
+        <path style="fill:#464655;"
+            d="M280.001,432c0,13.255-24,24-24,24s-24-10.745-24-24s10.745-24,24-24S280.001,418.745,280.001,432z" />
+        <g>
+            <path style="fill:#FF8C46;"
+                d="M96.001,16c12,21.333,80,152,80,152l-40-8c0,0,16,28,16,40c0,15.5-16,24-16,24" />
+            <path style="fill:#FF8C46;"
+                d="M416.001,16c-12,21.333-80,152-80,152l40-8c0,0-16,28-16,40c0,15.5,16,24,16,24" />
+        </g>
+        <g>
+            <path style="fill:#FFDEB7;" d="M256.001,472c38.5,21,69-16,90.5-28.157c22.632-12.798,74.5-25.843,90.5-35.843l-2-22.829l34-3.171
+		c0,0-50.296-54.442-114-16C297.001,401,256.001,472,256.001,472z" />
+            <path style="fill:#FFDEB7;" d="M255.001,473c-38.5,21-69-16-90.5-28.157C141.869,432.045,90.001,419,74.001,409l2-22.829l-34-3.171
+		c0,0,50.296-54.442,114-16C214.001,402,255.001,473,255.001,473z" />
+        </g>
+        <path d="M192.001,304c-8.822,0-16,7.178-16,16s7.178,16,16,16s16-7.178,16-16S200.823,304,192.001,304z" />
+        <path d="M320.001,304c-8.822,0-16,7.178-16,16s7.178,16,16,16s16-7.178,16-16S328.823,304,320.001,304z" />
+        <path d="M478.44,388.743c0.028-0.039,0.053-0.079,0.081-0.118c0.15-0.211,0.289-0.428,0.416-0.649
+	c0.037-0.064,0.071-0.13,0.106-0.195c0.111-0.208,0.212-0.419,0.305-0.634c0.029-0.068,0.059-0.136,0.086-0.205
+	c0.096-0.243,0.18-0.489,0.251-0.738c0.011-0.039,0.025-0.076,0.036-0.115c0.078-0.289,0.139-0.582,0.184-0.877
+	c0.01-0.068,0.014-0.136,0.023-0.205c0.029-0.224,0.049-0.45,0.059-0.677c0.004-0.098,0.004-0.196,0.005-0.294
+	c0.001-0.211-0.007-0.422-0.022-0.633c-0.006-0.089-0.011-0.177-0.021-0.266c-0.032-0.295-0.076-0.589-0.14-0.879l0,0l0,0
+	c-0.005-0.023-0.01-0.046-0.016-0.069c-0.865-3.854-17.644-76.356-64.658-130.191c-0.952-8.661,2.655-47.012,5.854-81.018
+	c3.156-33.553,6.733-71.584,8.355-102.381c2.713-51.515-1.356-60.549-5.384-64.974C421.833,1.287,419.006,0,416.001,0
+	c-20.689,0-38.958,24.669-64.243,58.813c-19.291,26.05-41.124,55.501-67.532,77.884C276.413,135.6,266.527,135,256.001,135
+	s-20.412,0.6-28.225,1.697c-26.409-22.383-48.242-51.834-67.533-77.884C134.959,24.669,116.69,0,96.001,0
+	c-3.005,0-5.832,1.287-7.959,3.625c-4.028,4.424-8.098,13.459-5.384,64.974c1.622,30.797,5.199,68.828,8.355,102.381
+	c3.199,34.005,6.806,72.357,5.854,81.018c-47.014,53.835-63.792,126.337-64.658,130.191c-0.005,0.023-0.011,0.046-0.016,0.069l0,0
+	l0,0c-0.064,0.291-0.108,0.585-0.141,0.88c-0.009,0.088-0.014,0.176-0.021,0.265c-0.016,0.211-0.023,0.422-0.022,0.633
+	c0,0.099,0.001,0.197,0.005,0.296c0.009,0.224,0.03,0.448,0.058,0.671c0.009,0.07,0.013,0.141,0.024,0.211
+	c0.045,0.293,0.105,0.584,0.183,0.872c0.013,0.045,0.029,0.09,0.042,0.135c0.07,0.242,0.15,0.479,0.243,0.714
+	c0.03,0.075,0.063,0.149,0.095,0.224c0.089,0.208,0.187,0.41,0.294,0.611c0.039,0.071,0.076,0.143,0.116,0.213
+	c0.123,0.213,0.256,0.419,0.399,0.622c0.034,0.048,0.063,0.097,0.098,0.144c0.182,0.246,0.378,0.485,0.591,0.712
+	c0.005,0.005,0.008,0.01,0.013,0.016c0.029,0.031,0.063,0.057,0.093,0.087c0.147,0.151,0.295,0.302,0.457,0.444
+	c0.033,0.029,0.068,0.053,0.101,0.081c0.067,0.058,0.138,0.11,0.207,0.166c0.172,0.138,0.349,0.267,0.529,0.388
+	c0.068,0.045,0.136,0.092,0.206,0.135c0.242,0.152,0.488,0.292,0.74,0.415c0.006,0.003,0.013,0.007,0.019,0.01
+	c0.274,0.132,0.553,0.245,0.837,0.345c0.054,0.019,0.108,0.034,0.163,0.051c0.229,0.075,0.462,0.139,0.696,0.192
+	c0.07,0.017,0.14,0.033,0.211,0.047c0.287,0.057,0.575,0.104,0.864,0.13c0.008,0,0.016,0,0.023,0.001
+	c0.227,0.019,0.454,0.029,0.682,0.029c0.048,0,0.097-0.007,0.145-0.007c0.119-0.002,0.238-0.011,0.357-0.019
+	c0.192-0.012,0.382-0.03,0.573-0.055c0.06-0.008,0.12-0.008,0.18-0.017c9.381-1.486,20.78-2.309,28.313-1.893l-5.153,15.461
+	c-0.688,2.061-0.506,4.313,0.501,6.239c1.008,1.925,2.755,3.357,4.841,3.968c0.86,0.252,86.23,25.48,124.084,57.68
+	c2.932,2.938,6.191,5.498,9.767,7.62c4.122,2.447,8.547,4.192,13.17,5.289c3.652,14.657,19.85,25.736,39.225,25.736
+	c19.376,0,35.573-11.08,39.225-25.734c4.624-1.096,9.049-2.841,13.17-5.289c3.576-2.123,6.835-4.682,9.768-7.62
+	c37.821-32.172,123.224-57.428,124.084-57.68c2.085-0.61,3.833-2.043,4.84-3.969c1.007-1.925,1.189-4.178,0.501-6.238l-5.161-15.483
+	c7.551-0.426,18.942,0.434,28.322,1.915c0.058,0.009,0.116,0.008,0.175,0.016c0.196,0.027,0.392,0.044,0.59,0.056
+	c0.111,0.007,0.223,0.016,0.334,0.018c0.051,0.001,0.102,0.008,0.153,0.008c0.531,0,1.062-0.058,1.585-0.164
+	c0.058-0.012,0.116-0.026,0.174-0.039c0.251-0.057,0.499-0.125,0.745-0.206c0.041-0.014,0.082-0.025,0.122-0.039
+	c0.56-0.195,1.103-0.456,1.619-0.781c0.062-0.039,0.122-0.079,0.182-0.119c0.189-0.127,0.375-0.263,0.556-0.408
+	c0.063-0.05,0.125-0.098,0.187-0.149c0.035-0.03,0.072-0.055,0.106-0.085c0.173-0.151,0.332-0.313,0.489-0.475
+	c0.02-0.021,0.042-0.038,0.062-0.059c0.003-0.002,0.005-0.007,0.008-0.01C478.058,389.235,478.256,388.993,478.44,388.743z
+	 M256.001,496c-9.114,0-17.23-3.598-21.278-8.733c6.987-0.791,14.161-2.887,21.278-6.286c7.118,3.399,14.291,5.495,21.278,6.286
+	C273.231,492.402,265.114,496,256.001,496z M256.003,447.087c-7.417-3.971-16.002-10.576-16.002-15.087c0-8.822,7.178-16,16-16
+	c8.822,0,16,7.178,16,16C272.001,436.159,264.11,442.765,256.003,447.087z M428.568,376.774c-3.651,1.734-5.435,5.92-4.157,9.756
+	l5.411,16.233c-17.763,5.644-61.459,20.527-95.863,40.42c1.341-5.984,2.042-12.408,2.042-19.183c0-16.681,3.511-38.761,20.24-49.216
+	c3.747-2.342,4.885-7.277,2.544-11.023c-2.342-3.747-7.276-4.887-11.024-2.544c-18.161,11.349-27.76,33.06-27.76,62.783
+	c0,16.11-4.679,29.451-13.058,37.936c-0.097,0.097-0.192,0.194-0.283,0.295c-1.952,1.931-4.098,3.604-6.431,4.989
+	c-10.152,6.026-22.885,5.917-36.228-0.174v-6.088c8.563-4.605,24-14.861,24-28.958c0-17.645-14.355-32-32-32s-32,14.355-32,32
+	c0,14.097,15.438,24.353,24,28.958v6.088c-13.344,6.092-26.077,6.201-36.228,0.174c-2.333-1.385-4.479-3.058-6.431-4.989
+	c-0.091-0.101-0.186-0.198-0.283-0.295c-8.379-8.485-13.058-21.826-13.058-37.936c0-29.723-9.599-51.434-27.76-62.784
+	c-3.748-2.343-8.683-1.203-11.024,2.544c-2.341,3.746-1.203,8.682,2.544,11.023c16.729,10.456,20.24,32.536,20.24,49.217
+	c0,6.775,0.701,13.199,2.042,19.183c-34.404-19.893-78.1-34.776-95.863-40.42l5.411-16.233c1.278-3.835-0.505-8.021-4.157-9.756
+	c-4.674-2.22-11.92-2.902-19.271-2.872c25.466-15.955,54.442-15.479,62.407-14.031c4.349,0.793,8.511-2.093,9.302-6.44
+	c0.79-4.347-2.093-8.512-6.44-9.302c-11.596-2.109-44.909-2.086-74.224,16.501c8.78-25.869,25.977-66.871,54.776-99.32
+	c4.295-4.839,4.46-12.077-3.042-91.828c-3.05-32.422-6.506-69.169-8.169-99.174c-0.834-15.048-1.074-26.096-0.988-34.219
+	c16.646,31.194,48.691,92.575,63.401,120.791l-23.616-4.724c-3.075-0.614-6.226,0.623-8.059,3.167
+	c-1.833,2.544-2.012,5.924-0.456,8.646c6.206,10.861,14.946,29.219,14.946,36.031c0,10.395-11.675,16.892-11.753,16.936
+	c-3.902,2.073-5.384,6.916-3.312,10.817c1.438,2.706,4.207,4.249,7.072,4.249c1.266,0,2.551-0.301,3.747-0.937
+	c0.826-0.439,20.246-10.987,20.246-31.065c0-7.702-4.663-19.375-9.181-28.878l23.612,4.723c3.018,0.603,6.116-0.578,7.966-3.041
+	c1.849-2.461,2.121-5.766,0.7-8.498c-2.495-4.793-55.448-106.532-74.895-142.654c11.257,8.974,24.937,27.446,39.182,46.682
+	c20.156,27.218,43,58.068,71.494,81.811c0.981,0.817,2.101,1.352,3.263,1.628c1.598,1.001,3.549,1.452,5.554,1.118
+	c7.22-1.201,17.536-1.891,28.305-1.891c10.769,0,21.085,0.69,28.305,1.892c0.445,0.074,0.887,0.109,1.324,0.109
+	c1.533,0,2.991-0.448,4.235-1.228c1.161-0.277,2.279-0.811,3.258-1.627c28.494-23.743,51.338-54.593,71.494-81.811
+	c14.245-19.236,27.925-37.708,39.182-46.682c-19.446,36.123-72.4,137.861-74.895,142.654c-1.421,2.731-1.149,6.036,0.7,8.498
+	c1.85,2.462,4.949,3.645,7.966,3.041l23.612-4.723c-4.518,9.502-9.181,21.175-9.181,28.877c0,20.078,19.42,30.626,20.247,31.065
+	c1.196,0.635,2.48,0.937,3.747,0.937c2.864,0,5.634-1.542,7.072-4.249c2.073-3.901,0.59-8.745-3.312-10.817
+	c-0.118-0.063-11.754-6.536-11.754-16.936c0-6.797,8.74-25.162,14.947-36.031c1.554-2.724,1.375-6.104-0.458-8.647
+	s-4.985-3.781-8.058-3.167l-23.616,4.724c14.709-28.216,46.755-89.596,63.401-120.791c0.086,8.124-0.153,19.171-0.988,34.219
+	c-1.663,30.005-5.12,66.752-8.169,99.174c-7.502,79.751-7.337,86.989-3.042,91.829c28.746,32.39,45.96,73.417,54.758,99.309
+	c-29.312-18.576-62.616-18.599-74.206-16.49c-4.347,0.791-7.23,4.955-6.44,9.302c0.791,4.347,4.954,7.234,9.302,6.44
+	c7.963-1.447,36.94-1.923,62.406,14.032C440.488,373.872,433.242,374.554,428.568,376.774z" />
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+    </svg>
+
+    <img src="img/bextlan-logos.svg" alt="Bextlan...lugar de bits,vextores y pixeles">
+    <img src="img/fox-svgrepo-com.svg" alt="Fox in SVG">
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="figuras">Figuras</h2>
+
+    <!-- La figura es una etiqueta semántica que representa un contenido que por si solo se explica
+y que generalmente va a ser una imagen -->
+    <figure>
+        <img src="img/periodic-table-of-html-elements.png" alt="Tabla Periódica de los Elementos HTML">
+        <!-- Esta etiqueta me permite colocar al pie de la imagen una breve descripción de la misma -->
+        <figcaption>Tabla Periódica de los Elementos HTML</figcaption>
+    </figure>
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="listas-ordenadas">Listas Ordenadas</h2>
+
+    <!--  La etiqueta de listas ordenadas es ol (order-list).
+    Los elementos dentro de esta etiqueta son los list item y se representan por la etiqueta li -->
+    <h3>Las Estaciones del año</h3>
+    <ol>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol start="3">
+        <!-- listado a partir de un número -->
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol reversed>
+        <!-- obtener lista en orden inverso. Atributo booleano -->
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <ol type="I">
+        <!-- atributo type para alternar forma de numerar -->
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+    </ol>
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="listas-desordenadas">Listas Desordenadas</h2>
+
+    <!--  La etiqueta de listas desordenadas es ul (unorder-list) -->
+    <h3>Cosas por hacer</h3>
+    <ul>
+        <!-- valor predeterminado disc -->
+        <li>Terminar de grabar los fragmentos del curso HTML</li>
+        <li>Editar el video final</li>
+        <li>Subirlo a Youtube</li>
+    </ul>
+    <ul type="circle">
+        <li>Terminar de grabar los fragmentos del curso HTML</li>
+        <li>Editar el video final</li>
+        <li>Subirlo a Youtube</li>
+    </ul>
+    <ul type="square">
+        <li>Terminar de grabar los fragmentos del curso HTML</li>
+        <li>Editar el video final</li>
+        <li>Subirlo a Youtube</li>
+    </ul>
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="listas-definicion">Listas de Definición</h2>
+    <!-- Las listas de definición se forman con las etiquetas dl (definition list) -->
+    <dl>
+        <!-- Para el término que queremos explicar utilizamos la etiqueta dt (definition term) -->
+        <dt>HTML</dt>
+        <!-- La definición como tal del elemento se coloca en la etiqueta dd (definition data) -->
+        <dd>Es un lenguaje de marcado que define el contenido de la web</dd>
+        <dt>CSS</dt>
+        <dd>Es un lenguaje de definición que da estilos al código HTML</dd>
+        <dt>JavaScript</dt>
+        <dd>Es el lenguaje de la web</dd>
+    </dl>
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="tablas-html">Tablas en HTML</h2>
+
+    <!-- La etiqueta para construir una tabla en html es table -->
+    <table>
+        <tr>
+            <td>Nombre</td> <!-- es la etiqueta empleada para construir las celdas td (table data) -->
+            <td>Constelación</td>
+            <td>Tipo</td>
+        </tr> <!-- esta etiqueta se utiliza para definir las filas dentro de la tabla tr (table row) -->
+        <tr>
+            <td>Ikki</td>
+            <td>Fénix</td>
+            <td>Bronce</td>
+        </tr>
+        <tr>
+            <td>Shaina</td>
+            <td>Ofiuco</td>
+            <td>Plata</td>
+        </tr>
+        <tr>
+            <td>Saga</td>
+            <td>Géminis</td>
+            <td>Dorado</td>
+        </tr>
+    </table>
+
+    <br><br><br>
+
+    <!-- La etiquetas thead,tbody y tfoot sirven para agrupar conjuntos de filas: thead (table head), tbody(table body) y  tfoot (table foorter) -->
+    <table>
+        <thead>
+            <!-- representa la cabecera de la tabla -->
+            <tr>
+                <!-- El atributo colspan hace referencia al número de columnas que abarcará el elemento al que se le aplica.Permite combinar
+                celdas en columnas  -->
+                <th colspan="3">Tabla de los Santos de Atena</th>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Constelación</th>
+                <th>Tipo</th>
+                <!-- esta etiqueta se utiliza para las celdas th (table heading). Coloca el texto en negrita. -->
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- representa el cuerpo de la tabla -->
+            <tr>
+                <!-- El atributo rowspan hace referencia al número de filas que abarcará el elemento al que se le aplica.Permite combinar
+                filas en columnas  -->
+                <td>Ikki</td>
+                <td>Fénix</td>
+                <td>Bronce</td>
+            </tr>
+            <tr>
+                <td>Mistry</td>
+                <td>Lagarto</td>
+                <td>Plata</td>
+            </tr>
+            <tr>
+                <td>Saga</td>
+                <td>Géminis</td>
+                <td>Dorado</td>
+            </tr>
+            <tr>
+                <td>Shaina</td>
+                <td rowspan="2">Ofiuco</td>
+                <td>Plata</td>
+            </tr>
+            <tr>
+                <td>Odiseo</td>
+                <td>Dorado</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- representa el pie de la tabla -->
+            <th colspan="3"><small>Saint Seiya fue creado por Masami Kurumada</small></th>
+        </tfoot>
+    </table>
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="enlaces-html">Enlaces en HTML</h2>
+
+    <!-- Los enlaces (etiqueta a) son aquellos elementos que nos permiten ir hacia cualquier otra parte. Proporciona 
+    interactividad entre los demás documentos html que conforman la web.
+    Los enlaces son etiquetas que trabajan en línea-->
+    <a href="hola.html">Hacia la página hola</a>
+
+    <br>
+
+    <!-- Cuando se establecen enlaces externos hay que utilizar el protocolo http o https -->
+    <!-- Mediante el atributo target indicamos hacia donde queremeos que se abra el enlace seleccionado.
+    Con el valor _blank le indicamos que se abra en una nueva pestaña -->
+    <!-- Cuando son enlaces externos, se recomienda utilizar el atributo rel, con el cual las arañas de los motores de
+    busqueda sepan que este enlace no forma parte de la aplicación o sitio en el que estamos -->
+    <a href="https://jonmircha.com" target="_blank" rel="nofollow">Visita el sitio web de jonmircha.com</a>
+
+    <br>
+
+    <a href="https://jonmircha.com/cursos">
+        <img src="img/kEnAi.svg" alt="Ir hacia mis cursos jonmircha.com" width="40" height="40">
+    </a>
+
+    <a href="https://youtube.com/jonmircha" target="_blank">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M5 7H19C19.5523 7 20 7.44771 20 8V16C20 16.5523 19.5523 17 19 17H5C4.44772 17 4 16.5523 4 16V8C4 7.44772 4.44772 7 5 7ZM2 8C2 6.34315 3.34315 5 5 5H19C20.6569 5 22 6.34315 22 8V16C22 17.6569 20.6569 19 19 19H5C3.34315 19 2 17.6569 2 16V8ZM10 9L14 12L10 15V9Z"
+                fill="currentColor" />
+        </svg>
+    </a>
+
+    <!-- Estableciendo enlaces a correo electrónico y número de teléfono -->
+    <br>
+    <a href="mailto:hola@jonmircha.com">Enlace a correo electrónico</a>
+    <br>
+    <a href="tel:5215512345678">Enlace a teléfono</a>
+    <br>
+    <a href="https://api.whatsapp.com/send?phone=5215512345678&text=Hola">Enlace hacia WhatsApp</a>
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="elementos-interactivos">Elementos Interactivos</h2>
+
+    <!-- Los botones constituyen elementos interactivos -->
+    <!-- Para hacer un botón interactivo en html se hace uso de los eventos disponibles como atributos
+    ejemplo onclick() -->
+    <!-- El valor alert permite establecer un mensaje -->
+    <button onclick="alert('Hola has clickeado el botón')">Este es un botón</button>
+    <!-- Es una nueva etiqueta que se introduce en html y funciona como un acordeón.
+            Su estructura es la siguiente:
+            1. El acordeón (etiqueta details).
+            2. El título del acordeón (etiqueta summary).
+            3. El contenido del acordeon (cualquier etiqueta contenedora vista, o div o párrafo). 
+    -->
+    <br><br>
+    <details>
+        <summary>Título del Acordeón</summary>
+        <article>
+            <h3>Contenido del Acordeón</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam aspernatur ad, suscipit velit
+                odit nostrum. Ad praesentium provident quos perferendis error quia, eligendi expedita odio eos
+                doloremque modi quam.
+            </p>
+            <img src="img/puesta-sol.jpg" alt="Puesta de sol">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aspernatur qui quos aut inventore
+                beatae consectetur atque, explicabo nobis? Eos facilis iusto illo quibusdam praesentium aperiam
+                molestias dignissimos dolore consectetur?
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis harum ipsum itaque, saepe quaerat
+                magni est? Deserunt cupiditate ut consequatur unde quod eum maiores, ratione adipisci, voluptatibus
+                minima recusandae eius.
+            </p>
+        </article>
+    </details>
+    <br>
+    <!-- Para que un acordeón aparezca abierto por defecto solo agragamos el atributo booleano open a la etiqueta details -->
+    <details open>
+        <summary>Título del Acordeón</summary>
+        <article>
+            <h3>Contenido del Acordeón</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente numquam aspernatur ad, suscipit velit
+                odit nostrum. Ad praesentium provident quos perferendis error quia, eligendi expedita odio eos
+                doloremque modi quam.
+            </p>
+            <img src="img/puesta-sol.jpg" alt="Puesta de sol">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aspernatur qui quos aut inventore
+                beatae consectetur atque, explicabo nobis? Eos facilis iusto illo quibusdam praesentium aperiam
+                molestias dignissimos dolore consectetur?
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis harum ipsum itaque, saepe quaerat
+                magni est? Deserunt cupiditate ut consequatur unde quod eum maiores, ratione adipisci, voluptatibus
+                minima recusandae eius.
+            </p>
+        </article>
+    </details>
+
+    <br>
+
+    <!-- Otro elemento interactivo son las cajas de diálogos o ventanas modales.
+    Se representa mediante la etiqueta dialog. -->
+    <dialog open>
+        Esto es una ventana modal en HTML
+    </dialog>
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="audio-video">Elementos de Audio y Video en HTML</h2>
+
+    <!-- Etiqueta de audio -->
+    <!-- El atributo controls activa la visibilidad del audio. Es una etiqueta en línea -->
+    <audio src="media/Feels-PatrickPatrikios.mp3" controls preload></audio>
+
+    <br><br>
+
+    <!-- Etiqueta de video -->
+    <!-- Con el atributo poster establecemos una capa de presentación predefinida hasta que el usuario decide ver el video -->
+    <video src="media/kenai.mp4" controls preload poster="img/puesta-sol.jpg"></video>
+
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="iframes">Iframes</h2>
+    <!-- La etiqueta iframes se utiliza cuando existe la necesidad d incrustar elementos provenientes de otras páginas
+    o cargar documentos con ciertas información -->
+    <!-- En el atributo source (src) colocamos la url del archivo que deseamos cargar
+    y con el atributo frameborder es para encerrar el iframe en un borde. -->
+    <iframe src="hola.html" frameborder="1"></iframe>
+
+    <br>
+
+    <iframe src="https://jonmircha.com" frameborder="1"></iframe>
+
+    <br>
+
+    <iframe src="https://facebook.com" frameborder="1"></iframe>
+
+    <br>
+
+    <iframe src="media/emmet-cheat-sheet.pdf" frameborder="1"></iframe>
+
+    <br>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.6654003373211!2d-99.16814652076648!3d19.427021863930683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sEl%20%C3%81ngel%20de%20la%20Independencia!5e0!3m2!1ses-419!2smx!4v1625355039715!5m2!1ses-419!2smx"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/F55LNTW3GE0" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="formularios">Formularios</h2>
+
+    <h3>Elementos de Formularios</h3>
+
+    <!-- Los input son elementos de línea.
+    Existen varios tipos de input -->
+    <input type="text">
+
+    <br><br>
+    <input type="checkbox"> <!-- Es para seleccionar varias opciones -->
+
+    <br><br>
+    <input type="radio"> <!-- Es para seleccionar una sola opción -->
+
+    <br><br>
+    <input type="date"> <!-- Es para especificar la fecha -->
+
+    <br><br>
+    <input type="color"> <!-- Es para seleccionar en formato RBG el color que desee -->
+
+    <br><br>
+    <input type="button" value="Botón">
+    <!-- Es como un botón, pero no funciona por sí solo. Para ponerle un texto
+    es necesario indicarle el atributo value -->
+
+    <br><br>
+    <input type="submit">
+    <!-- Es como un botón. Significa enviar. Cuando está dentro de un formulario es el botón que 
+    envía los datos del formulario -->
+
+    <br><br>
+    <input type="reset">
+    <!-- Es como un botón. Cuando está dentro de un formulario, si lo presionamos limpiará los valores 
+    introducidos previamente en este. -->
+
+    <br><br>
+    <input type="file"> <!-- Es para seleccionar archivos. Solamente permitirá seleccionar un archivo -->
+
+    <br><br>
+    <input type="file" multiple> <!-- Con el atributo multiple se pueden seleccionar varios archivos -->
+
+    <br><br>
+    <input type="hidden" name="idioma" value="es">
+    <!-- Es un tipo de input que habitualmente no se va a ver. Sirven para cuando el formulario
+    se envíe, yo como programador pueda enviar algún valor a través del atributo value -->
+
+    <br><br>
+    <input type="email">
+    <!-- Es como una caja de texto (pero de tipo email). Detecta que es de tipo email. En los navegadores de los dispositivos táctiles
+    se activará un conjunto de caracteres especiales como el @, etc -->
+
+    <br><br>
+    <input type="number">
+    <!-- Es para ingresar números positivos o negativos. En dispositivos táctiles cambia del teclado alfanumérico al teclado 
+    numérico. -->
+
+    <br><br>
+    <input type="tel"> <!-- Es para indicar un número de teléfono -->
+
+    <br><br>
+    <input type="password"> <!-- Es el input utilizado en los formularios para las contraseñas -->
+
+    <br><br>
+    <input type="search"> <!-- Es para realizar la búsqueda de un elemento dado -->
+
+    <br><br>
+    <textarea cols="50" rows="5"></textarea>
+    <!-- Son como una especie de caja que nos sirve para poner los comentarios
+    Con rows indicamos el número de renglones que tendrá y cols especifica el número de caracteres a lo ancho que va a 
+    ocupar -->
+
+    <br><br>
+    <!-- Esta etiqueta permite seleccionar entre varias opciones. Internamente necesita la etiqueta options  
+     Este etiqueta solo te permite seleccionar una opción. Admite el atributo multiple -->
+    <select name="" id="">
+        <option value="">HTML</option>
+        <option value="">CSS</option>
+        <option value="">JS</option>
+        <option value="">PHP</option>
+        <option value="">Python</option>
+    </select>
+
+    <br><br>
+
+    <select name="" id="" multiple>
+        <option value="">HTML</option>
+        <option value="">CSS</option>
+        <option value="">JS</option>
+        <option value="">PHP</option>
+        <option value="">Python</option>
+    </select>
+
+    <br><br>
+
+    <!-- Con el atributo readonly indicamos que solo puede ser de lectura (no se puede modificar)
+    Con la propiedad disabled indico que el elemento está inhabilitado -->
+    <input type="text" value="jonmircha" readonly disabled>
+
+    <br><br>
+
+    <!-- El atributo placeholder es como un texto de sugerencia -->
+    <input type="text" placeholder="Escribe tu nombre">
+
+    <br><br>
+
+    <!-- Con la etiqueta form inicializamos un formulario. Es un elemento de bloque (genera saltos de línea arriba y abajo) 
+    Para que la url hacia donde enviamos nuestros formularios detecte cada uno de los input colocarles un atributo name
+    El atributo name es el nombre de variable de formulario que se va a crear para cada uno de los input. Es imprescindible
+    Cuando hay un signo de interrogación en la url significa que estamos pasando  
+    El atributo method tiene que ver con envío de datos del formulario. Existen dos métodos: GET y POST 
+    El método GET va a enviar los datos por la url.
+    El método POST lo va a enviar en las cabeceras del documento (de forma oculta)
+    Cuando no tenemos el atributo action el formulario se va a autoprocesar 
+    Para evitar que se autocompleten los datos del formulario, lo hacemos mediante el atributo autocomplete y establecemos
+    su valor en off. Autocomplete funciona tanto para formulario a nivel general como elementos del formulario a nivel
+    específico -->
+
+    <h3>Ejemplo de formulario</h3>
+
+    <h4>Formulario de Login</h4>
+
+    <!-- action- indica hacia donde se va a enviar nuestro formulario -->
+    <form action="https://jonmircha.com/" method="POST" autocomplete="off">
+
+        <!-- La etiqueta label nos permite indicar un texto que aparecerá al lado del elemento input
+         El nombre que le asignamos al atributo id en el elemento input, será el mismo con el cual lo vincularemos al atributo for del label -->
+
+        <!--  Con el atributo required de tipo booleano indicamos que el campo es obligatorio. Este es un modo de evitar que se envíe
+         el formulario en blanco -->
+
+        <!-- El atributo pattern (patrón) nos permite validar un formulario mediante expresiones regulares.
+        Los patrones me van a permitir validar que sean solo letras para un campo de letras o número para un campo de número -->
+
+        <!-- Con el atributo title indicamos mensajes que deseamos mostrar como validaciones -->
+
+        <label for="usuario">Usuario:</label>
+        <input type="text" name="usuario" id="usuario" placeholder="Escribe tu usuario"
+            title="El campo sólo acepta letras" pattern="^[A-Za-z]+$" required>
+        <br><br>
+        <!-- <input type="text" name="email" autocomplete="off"> -->
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Escribe tu password">
+        <br><br>
+        <input type="submit">
+        <br><br>
+        <input type="reset">
+    </form>
+
+    <!-- NOTA: EN TODOS LOS INPUTS PARA QUE EL SERVIDOR AL QUE ENVIEMOS LA INFORMACIÓN DEL FORMULARIO PUEDA CAPTURAR EN VARIABLE LA INFORMACIÓN
+    DE LOS ELEMENTOS DEL FORMULARIO HAY Q ACTIVARLES EL ATRIBUTO NAME (NOMBRE DE LA VARIABLE QUE VA A TOMAR CUANDO SE ENVÍE LA INFORMACIÓN) -->
+    <br><br>
+
+    <h4>Selects, Radios y Checkbox</h4>
+    <form>
+        <p>Elige tu idioma:</p>
+
+        <!-- Admite los elementos multiple, required -->
+        <!-- El atributo booleano selected permite establecer una opción por defecto -->
+        <select name="idioma" required>
+            <option value="" selected>Elige una opción</option>
+            <option value="es">Español</option>
+            <option value="en">Inglés</option>
+            <option value="fr">Francés</option>
+            <option value="it">Italiano</option>
+            <option value="pt">Portugués</option>
+        </select>
+
+        <!-- El atributo name debe ser el mismo para cada radio, puesto que de no hacerlo así se seleccionarían
+        los tres valores y eso rompería con el concepto del input radio -->
+
+        <!-- Con el atributo checked establecemos un valor por defecto -->
+
+        <p>Elige tu lenguaje de programación favorito: </p>
+
+        <input type="radio" name="lenguaje" id="radio-js" value="js" required>
+        <label for="radio.js">JavaScript</label>
+
+        <input type="radio" name="lenguaje" id="radio-py" value="py" checked>
+        <label for="radio-py">Python</label>
+
+        <input type="radio" name="lenguaje" id="radio-php" value="php">
+        <label for="radio-php">Php</label>
+
+        <!-- En este caso el atributo name debe de ser de preferencia individual para cada elemento, pero en caso de 
+        colocarlos con igual name funciona -->
+        <!-- Cuando vayamos a indicar un value no poner el nombre con acentos ni caracteres extraños -->
+        <!-- Otra forma de manipular los input, es establecer los mismos dentro de un label -->
+        <!-- El atributo checked también permite cargar uno o varios atributos por defecto -->
+        <!-- En el caso de required cuando se establece a un elemento, hasta que este no sea seleccionado no se enviará el formulario -->
+        <p>Elige tus intereses: </p>
+        <label>
+            <input type="checkbox" name="intereses" value="deportes">
+            Deportes
+        </label>
+
+        <label>
+            <input type="checkbox" name="intereses" value="finanzas" checked>
+            Finanzas
+        </label>
+
+        <label>
+            <input type="checkbox" name="intereses" value="salud">
+            Salud
+        </label>
+
+        <label>
+            <input type="checkbox" name="intereses" value="politica">
+            Política
+        </label>
+
+        <label>
+            <input type="checkbox" name="intereses" value="ecologia" checked>
+            Ecología
+        </label>
+
+        <p>
+            <label>
+                <input type="checkbox" name="terminos" required>¿Aceptas términos y condiciones?
+            </label>
+        </p>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+    <h4>Formulario de Contacto</h4>
+
+    <!-- https://formsubmit.co/ esta url se utiliza para el envío del formulario-->
+    <form action="https://formsubmit.co/marcosdemircan@gmail.com" method="POST">
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            title="Nombre sólo acepta letras y espacios en blanco" required>
+        <br><br>
+        <input type="email" name="correo" placeholder="Escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+            title="Formato de correo inválido" required>
+        <br><br>
+        <textarea name="coemntarios" cols="30" rows="10" required></textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+
+    <br><br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="data-attributes">Data Attributes</h2>
+
+    <!-- Los data attributes son atributos que se le agregan a las etiquetas. 
+        Estos pueden ser inventados por uno mismo. Son utilizados para manipular
+        los datos desde html 
+    -->
+    <!-- La regla que se debe de cumplir para hacer uso de los data-attributes, es que
+    todos los atributos deben comenzar por el prefijo data- -->
+
+    <ul>
+        <li data-id="1" data-name="spring">Primavera</li>
+        <li data-id="2" data-name="summer">Verano</li>
+        <li data-id="3" data-name="autumn">Otoño</li>
+        <li data-id="4" data-name="winter">Invierno</li>
+    </ul>
+
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="metas-seo">Metaetiquetas para SEO y móviles</h2>
+
+    <!-- Estas etiquetas son de gran ayuda para el posicionamiento de motores de búsqueda -->
+
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="metas-social">Metaetiquetas para Redes Sociales</h2>
+
+    <!-- Estas metaetiquetas se utilizan para compartir contenido en redes sociales. Utilizan el protocolo Open Graph -->
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+    <hr>
+
+    <h2 id="accWeb">Accesibilidad Web</h2>
+
+    <!-- La accesibilidad web es un conjunto de mecanismos que facilitan a las personas con discapacidades (visuales) la interacción
+    con la web. La idea es hacer el código HTML más accesible -->
+
+    <!-- role es un atributo de accesibilidad en HTML. Cada una de las etiquetas dependiendo del contenido tiene un rol -->
+    <!-- El atributo tabindex nos permite hacer un recorrido por los elementos de la página. Puede recibir un número positivo o negativo -->
+    <h3 role="title">Las estaciones del año</h3>
+    <ul role="list">
+        <li tabindex="1" role="listitem">Primavera</li>
+        <li tabindex="2" role="listitem">Verano</li>
+        <li tabindex="3" role="listitem">Otoño</li>
+        <li tabindex="4"role="listitem">Invierno</li>
+    </ul>
+    
+    <!-- La etiqueta aria-label permite ofrecer el contenido de manera enriquecida -->
+    <a role="link" aria-label="En este enlace encontrarás más información sobre las estaciones del año" href="#" target="_blank">Más información...</a>
+    
+    <!-- https://web.dev/accessible/
+         https://html5accessibility.com/
+         https://www.w3.org/blog/news/archives/8889
+         https://www.youtube.com/channel/UCU6ljj3m1fglIPjSjs2DpRA/videos
+    -->
+
+    <br>
+    <a href="index_2.html#inicio">☝️</a>
+
+
+    <!-- La etiqueta script permite insertar código javascript en html. Estas deben de ir al final
+    antes del cierre de la etiqueta body -->
+    <script>
+        console.log("Hola estamos aprendiendo HTML");
+    </script>
+
+    <!-- Para agregar código JS utilizamos la etiqueta script, mediante el atributo src
+    indicamos el lugar de origen del fichero -->
+    <script src="assets/codigos.js"></script>
+</body>
+
+
+</html>

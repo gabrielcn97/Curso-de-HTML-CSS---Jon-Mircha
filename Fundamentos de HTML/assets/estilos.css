@@ -1,0 +1,23 @@
+html{
+    scroll-behavior: smooth ; /* esta propiedad hace referencia la comportamiento del scroll. 
+                              Con el valor smooth le damos el efecto fluido */
+}
+body{
+    font-family: sans-serif;
+}
+
+img, video{
+    max-width: 100%; /* establecemos una máxima anchura del 100%, lo cual significa que aunque sea más grande
+    el tamaño máximo que alcanzarán serán el de la pantalla. */
+    height: auto; /* establecemos la altura en auto para evitar que se deforme, es decir el valor de la altura 
+    se calculará proporcional al tamaño de ancho que ocupa la imagen */
+}
+
+iframe{
+    width: 80%;
+    height: 400px;
+}
+
+h1{
+    color: navy;
+}
